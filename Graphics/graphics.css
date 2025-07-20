@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('/background/6195005.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #c6c6c6;
+  font-family: 'Sans', sans-serif;
+  padding-top: 10mm;
+}
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 5mm;
+  letter-spacing: 0,5px;
+}
+
+.top-rectangle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10mm;
+  background: rgba(27, 27, 27, 0.5);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10mm;
+  font-weight: bold;
+  z-index: 100;
+  overflow: hidden;
+}
+
+header {
+  padding: 25mm;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main-title span {
+  font-size: 20mm;
+}
+
+.text-light {
+  color: #ebebebff;
+}
+
+.text-red {
+  color: #e2171aff;
+}
+
+.subtitle {
+  color: #c7c7c7ff;
+  font-size: 40px;
+  display: block;
+  margin: 0;
+}
+
+.telegram {
+  color: #0077bcff;
+}
+
+.explore {
+  position: relative;
+  top: 20mm;
+  color: #ebebebff;
+  font-size: 40pt;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.panel-container {
+  display: flex;
+  justify-content: center;
+  gap: 10mm;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.panel {
+  position: relative;
+  width: 77mm;
+  height: 77mm;
+  background: rgba(27, 27, 27, 0.5);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #333;
+  border-radius: 10mm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #c6c6c6;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.panel-icon {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 10px;
+}
+
+.panel-title {
+  font-size: 30px;
+  color: #ebebeb;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.panel-line {
+  font-size: 18px;
+  color: #c6c6c6;
+  line-height: 1.4;
+}
+
+.panel:hover {
+  background-color: #1b1b1b;
+  transform: scale(1.02);
+}
