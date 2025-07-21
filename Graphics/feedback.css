@@ -1,7 +1,8 @@
  body {
       font-family: sans-serif;
-      background: url('./background/6195005.jpg') no-repeat center center fixed;
+      background: url('../background/6195005.jpg') no-repeat center center fixed;
       background-size: cover;
+      height: 100vh;
       color: #c7c7c7ff;
       display: flex;
       flex-direction: column;
