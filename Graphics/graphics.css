@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  padding: 10mm 0 0 0; /* padding-top: 10mm */
+  padding: 10mm 0 0 0;
   background: url('../background/6195005.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #c6c6c6;
   font-family: 'Sans', sans-serif;
-  min-height: 100vh; /* Лучше min-height, чем height */
+  min-height: 100vh;
 }
 
 .nav-link {
