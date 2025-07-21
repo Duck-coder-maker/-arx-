@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('/background/6195005.jpg') no-repeat center center fixed;
+  background: url('../background/6195005.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #c6c6c6;
   font-family: 'Sans', sans-serif;
