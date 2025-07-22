@@ -32,7 +32,6 @@ body {
   text-decoration: none;
   font-size: 5mm;
   letter-spacing: 0.5px;
-  /* Добавляем выравнивание по вертикали */
   top: 50%;
   transform: translateY(-50%);
 }
@@ -42,7 +41,6 @@ body {
   text-decoration: none;
   font-size: 5mm;
   letter-spacing: 0.5px;
-  /* Добавляем выравнивание по вертикали */
   display: flex;
   align-items: center;
   height: 100%;
