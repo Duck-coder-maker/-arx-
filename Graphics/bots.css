@@ -24,9 +24,23 @@ body {
   z-index: 100;
 }
 
+.logo {
+  position: absolute;
+  left: 1rem;
+  color: inherit;
+  text-decoration: none;
+  font-size: 5mm;
+  letter-spacing: 0.5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .nav-link {
   color: inherit;
   text-decoration: none;
   font-size: 5mm;
-  letter-spacing: 0,5px;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
